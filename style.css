@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Monserrat&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Monserrat', sans-serif;
+}
+
+body {
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1522775559573-2f76d540932b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1635&q=80')no-repeat;
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  margin: 1em;
+  color: #acfffc;
+  font-size: 1.5em;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  margin: 1em;
+}
+
+.nav li {
+  list-style: none;
+}
+
+.nav li a {
+  text-decoration: none;
+  padding: 1.2em;
+  color: #acfffc;
+}
+
+.nav li a:hover {
+  color: #E2CABC;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 320px auto;
+}
+
+h1 {
+  color: #acfffc;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+  font-weight: lighter;
+  margin-bottom: .5em;
+}
+
+p {
+  color: #E2CABC;
+  margin-bottom: 1.6em;
+  font-size: 1.3em;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+}
+
+button {
+  background: #acfffc5b;
+  color: #fff;
+  padding: 12px 45px;
+  text-transform: uppercase;
+  border: none;
+  font-size: 1.2em;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+  border-radius: 25px;
+  transition: all .5s ease;
+}
+
+button:hover {
+  background: #e2cabc6c;
+  color: #fff;
+  transform:translateY(10px) ;
+}
